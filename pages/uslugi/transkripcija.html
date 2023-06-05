@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="mk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="prevodi,sudski prevod,превод,судски превод,lektura,лектура">
+    <link rel="stylesheet" href="../../mainContent/shared.css " />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Услуги</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- here start the main part of the page -->
+        <main>
+            <!-- here start the header of the page -->
+            <div id="empty-container">
+                <header class="navBar">
+                    <a href="../../index.html"><img src="../../images/IQ_logo_Final.png" alt="logo"></a>
+                    <ul id="navList">
+                        <li class="nav-link">
+                            <a href="../../index.html">Дома</a>
+                        </li>
+                        <li class="nav-link" id="myDropdown">
+                            <div class="uslugiDropdown">
+                                <a href="uslugi.html">Услуги </a>
+                                <span class="clickableSpace" id="arrowDownIcon">
+                                    <p class="arrow myarrow" id="arrowDownIcon">
+                                    </p>
+                                </span>
+                            </div>
+                            <ul class="dropdown">
+                                <li><a href="obicenPrevod.html">Обичен превод</a></li>
+                                <li><a href="sudskiPrevod.html">Судски превод</a></li>
+                                <li><a href="prevodNaVideoMaterijali.html">Превод на видео материјали</a>
+                                </li>
+                                <li><a href="lektura.html">Лектура</a></li>
+                                <li><a href="adaptacija.html">Адаптација или пресоздавање текст</a></li>
+                                <li><a href="terminoloskiRaboti.html">Терминолошки работи</a></li>
+                                <li><a href="#">Транскрипција на снимен материјал</a></li>
+                                <li><a href="powerPoint.html">Изготвување PowerPoint презентации</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="../contact/contact.html">Контакт</a>
+
+                        </li>
+                        <li class="nav-link">
+                            <a href="../jazici/jazici.html">Јазици</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="../zanas/zanas.html">За нас</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <a href="#" class="nav-button"><button class="translateBtn">
+                            Закажи превод</button></a>
+                </header>
+            </div>
+            <!-- Start of hero page -->
+            <section class="heroPage">
+                <div class="heroContent">
+                    <h1>
+                        Транскрипција на снимен материјал
+                    </h1>
+
+                    <button class="translateBtn displayButton">Закажи превод</button>
+
+                </div>
+            </section>
+            <!-- start of form -->
+            <div id="formCont">
+                <form id="forma">
+                    <div class="title">
+                        <h3>Нарачај превод</h3>
+                    </div>
+                    <div id="inputs">
+                        <div class="leftSide">
+                            <label for="name">Име и презиме</label></br>
+                            <input type="text" name="name" id="name"></br>
+                            <label for="phone">Телефон</label></br>
+                            <input type="tel" name="phone" id="phone"></br>
+                            <label for="email">Е-маил адреса</label></br>
+                            <input type="email" name="email" id="email"></br>
+                            <label for="lang">Изберете јазик на изворниот документ</label></br>
+                            <select name="lang" id="lang">
+                                <option value=""></option>
+                                <option value="mk">Македонски</option>
+                                <option value="en">Англиски</option>
+                                <option value="hr">Хрватски</option>
+                                <option value="rs">Српски</option>
+                                <option value="cg">Црногорски</option>
+                                <option value="ge">Германски</option>
+                                <option value="fr">Француски</option>
+                                <option value="bg">Бугарски</option>
+                                <option value="it">Италјански</option>
+                                <option value="se">Шпански</option>
+                                <option value="sl">Словенечки</option>
+                                <option value="sk">Словачки</option>
+                                <option value="al">Албански</option>
+                                <option value="ro">Романски</option>
+                                <option value="nl">Холандски</option>
+                                <option value="tr">Турски</option>
+                                <option value="pl">Полски</option>
+                                <option value="hu">Унгарски</option>
+                                <option value="cz">Чешки</option>
+                                <option value="ru">Руски</option>
+                                <option value="gr">Грчки</option>
+                                <option value="zh">Кинески</option>
+                                <option value="ar">Арапски</option>
+                            </select>
+                            </br>
+                            <label for="services">Изберете услуги</label></br>
+                            <select name="services" id="services">
+                                <option value=""></option>
+                                <option value="">Обичен превод</option>
+                                <option value="">Судски превод</option>
+                                <option value="">Превод на видео материјали</option>
+                                <option value="">Лектура</option>
+                                <option value="">Адаптација или пресоздавање на текст</option>
+                                <option value="">Терминолошки работи</option>
+                                <option value="" selected>Транскрипција на снимен материјал</option>
+                                <option value="">Изготвување PowerPoint презентации</option>
+                            </select>
+                        </div>
+                        <div class="rightSide">
+                            <div class="contRightSide">
+                                <div class="image-upload">
+                                    <label for="dropFile">Прикачување на документ</br>
+                                        <span id="file"><img id="importfile" src="../../images/export.png" alt="export">
+                                            <p>Прикачи документ</p>
+                                        </span>
+                                    </label>
+                                    <input type="file" id="dropFile">
+                                </div>
+                                <!-- drop files  -->
+                                </br>
+                                <label for="translateLanglang">Изберете јазик за превод</label></br>
+                                <select name="translateLang" id="translateLang">
+                                    <option value=""></option>
+                                    <option value="mk">Македонски</option>
+                                    <option value="en">Англиски</option>
+                                    <option value="hr">Хрватски</option>
+                                    <option value="rs">Српски</option>
+                                    <option value="cg">Црногорски</option>
+                                    <option value="ge">Германски</option>
+                                    <option value="fr">Француски</option>
+                                    <option value="bg">Бугарски</option>
+                                    <option value="it">Италјански</option>
+                                    <option value="se">Шпански</option>
+                                    <option value="sl">Словенечки</option>
+                                    <option value="sk">Словачки</option>
+                                    <option value="al">Албански</option>
+                                    <option value="ro">Романски</option>
+                                    <option value="nl">Холандски</option>
+                                    <option value="tr">Турски</option>
+                                    <option value="pl">Полски</option>
+                                    <option value="hu">Унгарски</option>
+                                    <option value="cz">Чешки</option>
+                                    <option value="ru">Руски</option>
+                                    <option value="gr">Грчки</option>
+                                    <option value="zh">Кинески</option>
+                                    <option value="ar">Арапски</option>
+                                </select>
+                                </br>
+                                <label for="comQue">Коментари/прашања</label>
+                                </br>
+                                <textarea name="com" id="com" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="btn-form">
+                                <button class="translateBtn">Закажи превод</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+
+        </main>
+        <!-- here start the footer -->
+        <footer>
+            <div id="companyInfo">
+                <h4>АЈ ЌУ ИНТЕЛИЏЕНС ДОЕЛ</h4>
+                <div class="socialIcons">
+                    <img src="../../images/insta_logo.svg" alt="instaLogo" />
+                    <img src="../../images/linkedIn.svg" alt="linkedInLogo" />
+                    <img src="../../images/facebook.svg" alt="fbLogo" />
+                </div>
+
+
+            </div>
+            <div id="companyContactInfo">
+                <h4>Контакт</h4>
+
+                <div id="companyDescriptionContainer">
+                    <div>
+                        <img src="../../images/map_point.svg" alt="mapLocation" />
+                        <p>Северна Македонија <br />
+                            Ул. 1612 бр. 5-121000 Скопје</p>
+                    </div>
+                    <div>
+                        <img src="../../images/phone.svg" alt="phone" />
+                        <p> +389 70 214 551 <br />
+                            +389 70 786 789</p>
+
+                    </div>
+                    <div>
+                        <img src="../../images/Envelope.png" alt="mail" />
+                        <p><a href="mailto:intelligencecenter@outlook.com">intelligencecenter@outlook.com</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../../mainContent/app.js"></script>
+</body>
+
+</html>

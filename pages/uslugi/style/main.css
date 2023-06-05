@@ -1,0 +1,239 @@
+/* hero page */
+.heroPage {
+    background-image:
+        linear-gradient(to bottom, rgba(245, 246, 252, 0.32), rgba(19, 16, 169, 0.53)),
+        url("../../../images/heroimageuslugi.png");
+    height: 250px;
+    background-size: cover;
+    align-items: flex-end;
+    width: 100%;
+    display: flex;
+}
+
+.heroContent {
+    width: 70%;
+}
+
+.heroContent h1 {
+    font-size: 42px;
+    padding-bottom: 10px;
+}
+
+/* form */
+#formCont {
+    display: flex;
+    justify-content: center;
+}
+
+#forma {
+    background-color: #08B2F8;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 50px;
+}
+
+.title {
+    color: #FEFEFE;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#inputs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 40px
+}
+
+label {
+    color: #FEFEFE;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+input {
+    width: 370px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0;
+    padding: 0 20px 0 10px;
+
+}
+
+#dropFile {
+    background: none;
+    border: 2px dashed #FEFEFE;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 430px;
+}
+
+select {
+    width: 370px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: #056b94;
+    font-size: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../../../images/arrow.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+
+}
+
+option {
+    color: rgb(42, 42, 42);
+    background-color: #FEFEFE;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+#file {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px dashed #FEFEFE;
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+#file p {
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+#importfile {
+    width: 25px;
+}
+
+input:focus,
+select,
+textarea {
+    outline: none;
+}
+
+#services,
+#lang,
+#translateLang,
+#com {
+    padding: 10px 40px 10px 10px;
+    /* text-overflow: ellipsis; */
+}
+
+.rightSide textarea {
+    width: 370px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.btn-form {
+    float: right;
+}
+
+/* banner power point */
+#banner {
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #BE4400, #F7AC3B);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 1090px) {
+    .displayButton {
+        display: none;
+    }
+
+    /* forma */
+    #inputs {
+        gap: 30px;
+    }
+
+    #forma {
+        padding: 20px 15px;
+        margin: 50px 10px;
+    }
+
+    label,
+    select {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+    input,
+    select,
+    #file {
+        width: 300px;
+        height: 40px;
+    }
+
+    .rightSide textarea {
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    .heroContent {
+        width: 90%;
+    }
+
+    .heroContent h1 {
+        font-size: 32px;
+        padding-bottom: 10px;
+        line-height: 40px;
+    }
+
+    .heroPage {
+        height: 250px;
+    }
+
+    #forma .title h3 {
+        font-size: 24px;
+    }
+
+    #inputs {
+        gap: 0;
+        justify-content: center;
+    }
+
+    .rightSide {
+        align-items: center;
+        height: auto;
+    }
+
+
+}
